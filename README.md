@@ -11,3 +11,5 @@
 ```shell
 $ python renames.py 'Placeholder' 'Name' 'Module'
 ```
+
+Replaces 'Placeholder' with 'Name' in all dirnames, filenames and files starting from 'Module' directory.
