@@ -1,4 +1,4 @@
-## Replace all occurrences of substring with new string in files, filenames and dirnames starting from top directory
+## Replaces all occurrences of substring with new string in files, filenames and dirnames starting from top directory
 
 #### Args
 
@@ -9,7 +9,7 @@
 #### Usage
 
 ```shell
-$ python renames.py 'Placeholder' 'Name' 'Module'
+$ python replace.py 'Placeholder' 'Name' 'Module'
 ```
 
 Replaces 'Placeholder' with 'Name' in all dirnames, filenames and files starting from 'Module' directory.
