@@ -3,7 +3,7 @@
 #### Args
 
 * substring: substring to search
-* new: new string to replace 
+* new: string to replace with 
 * top: top directory
 
 #### Usage
