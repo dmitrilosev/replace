@@ -2,14 +2,14 @@
 
 #### Args
 
-* substring: substring to search
-* new: string to replace with 
-* top: top directory
+* argv[1]: string to search
+* argv[2]: string to replace with 
+* argv[3]: top directory
 
 #### Usage
 
 ```shell
-$ python replace.py 'Placeholder' 'Name' 'Module'
+$ python replace.py ’StringToSearch’ ‘NewString’ ‘TopDir’
 ```
 
-Replaces 'Placeholder' with 'Name' in all dirnames, filenames and files starting from 'Module' directory.
+Replaces 'StringToSearch' with 'NewString' in all dirnames, filenames and files starting from 'TopDir’ directory.
